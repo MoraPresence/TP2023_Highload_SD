@@ -185,11 +185,11 @@ title + description + type индексируются в поисковом дв
 ## СУБД
 - Users - Postgresql
 - Categories - Postgresql
-- Documents - Postgresql + sphinx
-- UsersQuery - Postgresql (mb Tarantool)
+- Documents - S3/HDFS
+- UsersQuery - Kafka
 - Sessions - Redis
 - KeyWords - Postgresql
-- SearchResults - Postgresql (mb Tarantool)
+- SearchResults - Kafka
 - Objects - Postgresql
 
 ## Балансировка запросов

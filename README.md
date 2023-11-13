@@ -254,6 +254,10 @@ Envoy - балансировщик, reverse proxy (причины описыва
 
 ## Метрики
 Grafana - для визуализации графиков, мониторинга, принятия бизнес-решений и алертов
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)
+
+# 9. Схема
 
 ## Список литературы
 [^1]: [Плотность населения РФ](https://www.statdata.ru/karta/plotnost-naseleniya-rossii)

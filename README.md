@@ -166,8 +166,7 @@ MAU 65.8 млн человек, DAU 26.6 млн человек
 
 # 6. Физическая схема БД
 ## Индексы
-**Documents:** b-tree(id)(P_KEY), hash(author), b-tree(link)
-title + description + type индексируются в поисковом движке (sphinx)
+**Documents:** b-tree(id)(P_KEY), hash(author)
 
 **KeyWords:** b-tree(id)(P_KEY)
 

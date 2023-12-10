@@ -156,6 +156,7 @@ MAU 65.8 млн человек, DAU 26.6 млн человек
 
 # 6. Физическая схема БД
 ## Индексы
+
 **Documents:** b-tree(id)(P_KEY)
 
 **Documents_info:** b-tree(id)(P_KEY), b-tree(key_words)

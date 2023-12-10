@@ -167,11 +167,9 @@ MAU 65.8 млн человек, DAU 26.6 млн человек
 
 **UsersQuery:** b-tree(id)(P_KEY), hash(user_id), hash(document_id)
 
-**SearchResults:** b-tree(id)(P_KEY), hash(query_id), hash(document_id)
+**SearchResults:** b-tree(id)(P_KEY), hash(query_id)
 
 **Sessions:** b-tree(id)(P_KEY), hash(user_id)
-
-**Images:** b-tree(id)(P_KEY)
 
 ## Денормализация
 - Фотографии пользователей в СУБД могут храниться в виде массива из ссылок в s3
@@ -251,7 +249,7 @@ Grafana - для визуализации графиков, мониторинг
 
 # 9. Схема
 ![Alt text](image-1.png)
-![img.png](img.png)
+![Alt text](image-2.png)
 
 # 10. Обеспечение надежности
 
